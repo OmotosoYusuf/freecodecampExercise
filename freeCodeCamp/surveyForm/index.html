@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Omotoso Yusuf">
+    <title>A Restaurant Evaluation Form</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1 id="title">Restaurant Evaluation Form <br>
+                <p id="description">We want to serve you better, kindly fill the form below</p>
+            </h1>
+        </header>
+
+        <section>
+            <div class="personal-info">
+                <form action="" method="POST" id="survey-form">
+                    <label for="date">Date Visited</label>
+                    <input type="date" name="date"><br>
+                    <div>
+                        <h2>Overall Experience</h2>
+                        <input id="experience1" name="experience" value="1" type="radio">
+                        <label for="experience1"> Excellent </label>
+                        <input id="experience2" name="experience" value="2" type="radio">
+                        <label for="experience2"> Good </label>
+                        <input id="experience3" name="experience" value="3" type="radio">
+                        <label for="experience3">Average</label>
+                        <input id="experience4" name="experience" value="4" type="radio">
+                        <label for="experience4">Dissatisfied</label>
+                    </div>
+                    <div class="feedback-details">
+                        <label id="name-label" for="name"> Full Name:
+                            <input type="text" id="name" placeholder="Enter your full name" required>
+                        </label>
+                        <label id="email-label" for="email"> Email Address:
+                            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                        </label>
+                        <label id="number-label" for="number">Enter your number:
+                            <input type="number" min="11" max="13" id="number" name="number" placeholder="Enter your number"
+                                required>
+                        </label>
+
+                        <span>Gender: &nbsp;</span>
+                        <select name="gender" id="dropdown">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                        <h3>Choose Your Age and Your Corresponding Relationship</h3>
+                        <label for="age-relationship"><strong>Age:</strong>
+                            <input type="checkbox" id="age-relationship" value="age">Below 18
+                            <input type="checkbox" name="age-relationship" id="age-relationship" value="age">18+ <br><br>
+                            <span><strong>Relationship Type:</strong></span>
+                            <input type="checkbox" name="age-relationship" id="age-relationship" value="relationship">Single
+                            <input type="checkbox" name="age-relationship" id="age-relationship"
+                                value="relationship">Married
+                            <input type="checkbox" name="age-relationship" id="age-relationship" value="relationship">Prefer
+                            not to Say
+                        </label><br>
+                        <textarea name="add-comment" id="add-comment" cols="35" rows="15"
+                            placeholder="Click in Here and enter your Additional Comment"
+                            style="font-weight: bold; font-size: 1em;"></textarea><br>
+                        <button type="submit" id="submit" value="Submit"> Submit </button>
+                    </div>
+                    
+                </form>
+            
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

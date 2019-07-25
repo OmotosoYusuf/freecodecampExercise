@@ -1,0 +1,59 @@
+html{
+    font-size: 10px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: white;
+    margin: 0px;
+}
+#main{
+    margin: 28px 10px;
+    padding: 13px;
+    border-radius: 5px;
+    background-color: rgb(19, 14, 14);
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+h1{
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+#img-div{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    margin: 0px;
+}
+#img-caption{
+    margin: 15px 0 5px 0;
+}
+#tribute-info{
+    margin: 0;
+}
+#headline{
+    margin: 50px 0;
+    text-align: center;
+}
+#tribute-link{
+    text-decoration: underline;
+}
+a{
+    color: wheat;
+}
+ul{
+    max-width: 550px;
+    margin: 0 auto 50px auto;
+    text-align: left;
+    font-size: 18px;
+    line-height: 2;
+}
+blockquote{
+    font-size: 18px;
+    font-style: italic;
+}

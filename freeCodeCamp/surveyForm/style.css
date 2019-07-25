@@ -1,0 +1,78 @@
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background-color: wheat;
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0px;
+    padding: 10px;
+}
+main{
+    background-color: aliceblue;
+    margin: 0 auto;
+    width: 75%;
+    max-width: 900px;
+    border-radius: 10px;
+    background-attachment: scroll;
+    background-repeat: repeat;
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+h1{
+    padding-top: 15px;
+    padding-bottom: 0;
+}
+#description{
+    font-size: 15px;
+    font-style: italic;
+}
+label{
+    font-size: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    padding-top: 0px;
+}
+input[type='text']{
+    height: 30px;
+    width: 300px;
+    margin-top: 10px;
+}
+input[type='email']{
+    height: 30px;
+    width: 300px;
+}
+#name, #email, #number{
+    margin-top: 20px;
+}
+#name, #number{
+    width: 345px;
+}
+select{
+    width: 100px;
+    height: 30px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-weight: bold;
+    font-size: 1rem;
+}
+input[type='checkbox']{
+    width: 50px;
+}
+input[type='tel']{
+    width: 300px;
+    height: 30px;
+}
+button{
+    margin-top: 15px;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+button:hover{
+    background-color: aliceblue;
+}
+/* #survey-form input{
+    margin-top: 30px;
+} */
